@@ -1,0 +1,30 @@
+Componentes en React
+
+Declaradas en clase 
+class App extends React.Component{
+  render(){
+    return <div>This is my component: <Helloworld/></div>
+  }
+}
+
+
+Funcion flecha
+
+//const App= ()=><div>This is my component : <Helloworld/></div>
+
+
+Javascript simple
+
+function App() {
+  return (
+    <div>This is my component: <Helloworld/><Helloworld/><Helloworld/></div>
+  );
+}
+
+
+
+
+
+Para usar props en una clase se usa this.props, para usarla en una funcion, se pasa como parametro es decir function Hello(props){}
+
+Para usar this. y si no es una propiedad de la clase, se usa bind, es decir 
